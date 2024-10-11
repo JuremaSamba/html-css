@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralização vertical</title>
+    <style>
+        #conteiner{
+            background-color: rgb(0, 64, 255);
+            position: relative;
+            height: 97vh;
+        }
+        #conteudo{
+            background-color: black;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        p{
+            color: wheat;
+            margin: auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="conteiner">
+        <article id="conteudo">
+            <p>Jurema</p>
+        </article>
+    </section>
+</body>
+</html>
